@@ -18,9 +18,14 @@
     "transport": "SMTP",
     "options": {
       "service": "Mailgun",
+      "host": "smtp.mailgun.org",
+      "port": 465,
+      "secure": true,
       "auth": {
-        "user": "postmaster@ghost-9y6d.onrender.com",
-        "pass": "42d92b5239078a86f87380792bf9bd85-32a0fef1-8c93ca3a"
+        auth": {
+          "user": "postmaster@ghost-9y6d.onrender.com",
+          "pass": "42d92b5239078a86f87380792bf9bd85-32a0fef1-8c93ca3a"
+        }
       }
     }
   },
