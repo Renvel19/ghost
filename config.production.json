@@ -23,10 +23,8 @@
       "port": 465,
       "secure": true,
       "auth": {
-        auth": {
-          "user": "postmaster@ghost-9y6d.onrender.com",
-          "pass": "42d92b5239078a86f87380792bf9bd85-32a0fef1-8c93ca3a"
-        }
+        "user": "postmaster@ghost-9y6d.onrender.com",
+        "pass": "42d92b5239078a86f87380792bf9bd85-32a0fef1-8c93ca3a"
       }
     }
   },
