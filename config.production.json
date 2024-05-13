@@ -15,8 +15,15 @@
     }
   },
   "mail": {
-    "transport": "Direct"
-  },
+    "transport": "SMTP",
+    "options": {
+      "service": "gmail",
+      "auth": {
+        "user": "dief.jara@gmail.com",
+        "pass": "tzzi fvei wznd tapg"
+      }
+    }
+},
   "logging": {
     "transports": [
       "stdout"
