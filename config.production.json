@@ -16,6 +16,7 @@
   },
   "mail": {
     "transport": "SMTP",
+    "from": "noreply@ghost-9y6d.onrender.com",
     "options": {
       "service": "Mailgun",
       "host": "smtp.mailgun.org",
