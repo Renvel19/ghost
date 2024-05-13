@@ -17,12 +17,10 @@
   "mail": {
     "transport": "SMTP",
     "options": {
-      "service": "Google",
-      "host": "smtp.gmail.com",
-      "port": 587,
+      "service": "Mailgun",
       "auth": {
-        "user": "dief.jara@gmail.com",
-        "pass": "tzzi fvei wznd tapg"
+        "user": "postmaster@ghost-9y6d.onrender.com",
+        "pass": "42d92b5239078a86f87380792bf9bd85-32a0fef1-8c93ca3a"
       }
     }
   },
